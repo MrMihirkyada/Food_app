@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/loutMain"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/background"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/checked"
+            android:backgroundTint="@color/lightgreen"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_30sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You just save a meal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:textSize="@dimen/_12ssp"
+            android:text="Together, let's create sustanable\n  future and ensure that no good\n      food goes to waste."/>
+
+        <LinearLayout
+            android:id="@+id/lnraddtocart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box11"
+            android:backgroundTint="@color/lightgreen"
+            android:layout_marginVertical="@dimen/_15sdp"
+            android:gravity="center"
+            android:layout_marginHorizontal="@dimen/_20sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to cart"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
